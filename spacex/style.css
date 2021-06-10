@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    max-width: 1437px;
+    background: #000;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.logo {
+    margin-left: 105px;
+}
+
+.header a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.menu__product {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__menu {
+    margin-right: 105px;
+}
+
+.main__menu a{
+    color: #808080;
+}
+
+
+.falcon {
+    margin-top: 120px ;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.falcon__head {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.falcon__text {
+    margin-top: 26px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 140%;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.falcon__img {
+    width: 1437px;
+    height: 1006px;
+    background: url('img/earth.jpg') no-repeat;
+    background-size: cover;
+}
+
+.rocket {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rocket__overview {
+    margin-left: 150px;
+}
+
+
+h3 {
+    width: 175px;
+    margin: 0;
+    margin-bottom: 45px;
+    padding: 0;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.performance__header {
+    margin-top: 218px;
+}
+
+.performance__text{
+    width: 490px;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+.rocket__img {
+    width: 644px;
+    height: 1718px;
+    background: url('img/rocket.png') no-repeat;
+    background-size: cover;
+}
+
+.parametres > div {
+    display: inline-block;
+}
+
+.parametres__name  p{
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 179.69%;
+} 
+
+.parametres__value {
+    margin-left: 130px;
+}
+
+.parametres__kg {
+    margin-bottom: 11px;
+    left: 437px;
+    font-size: 18px;
+    line-height: 179.69%;
+}
+
+.parametres__lb {
+    font-size: 18px;
+    line-height: 179.69%;
+    /* or 32px */
+    
+    color: #B2B0B2;
+
+}
+
+.footer {
+    margin-top: 185px;
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 43px;
+}
+
+.links {
+    margin-bottom: 28px;
+    display: inline-block;
+}
+
+.links a {
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 20px;
+}
+
+.footer__text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #808080;
+}
+
+.footer__btn {
+    margin-bottom: 130px;
+    background-color: black;
+    width: 260px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+a:hover {
+    border-bottom: 2px solid darkblue;
+}
